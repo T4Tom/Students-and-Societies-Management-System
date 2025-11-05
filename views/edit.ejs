@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/main.css">
+	<title>Dash</title>
+</head>
+
+<body>
+
+	<div class="content">
+    <%- include('common/header'); %>
+		<h1> Edit <%- course.Crs_Title %> </h1>
+    <h4><%- message %></h4>
+		<h3>
+
+      <form method="post" class="edit_form">
+
+        <p> <label for="Crs_Title"> Update Title: </label> <input type="text" value="<%- course.Crs_Title %>" name="Crs_Title" required> </p>
+        <p> <label for="Crs_Enrollment"> Update Enrollment: </label> <input type="text" value="<%- course.Crs_Enrollment %>" name="Crs_Enrollment" required> </p>
+        <input type="submit" value="Update">
+
+
+      </form>
+      </h1>
+
+	</div>
+
+</body>
+
+</html>

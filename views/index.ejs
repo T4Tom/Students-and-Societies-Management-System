@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<title>Dash</title>
+</head>
+
+<body>
+	<div class="content">
+    <%- include('common/header'); %>
+		<h1> University of Surrey Dashboard </h1>
+		<div class="dash_items">
+			<a href="/courses">
+				<section class="card">
+					<h2>
+						<%= courseCount %>
+					</h2>
+					<h3> Total Courses </h3>
+				</section>
+			</a>
+			<a href="/courses">
+				<section class="card">
+					<h2>
+						<%= totalEnrollments %>
+					</h2>
+					<h3> Total Enrollments </h3>
+
+				</section>
+			</a>
+			<a href="/courses">
+				<section class="card">
+					<h2>
+						<%= averageEnrollments %>
+					</h2>
+					<h3> Average Enrollments </h3>
+				</section>
+			</a>
+
+			<a href="/courses">
+				<section class="card">
+					<h2>
+						<%= highestEnrollments %>
+					</h2>
+					<h3> Highest Enrollments </h4>
+				</section>
+			</a>
+
+      <a href="/courses">
+				<section class="card">
+					<h2>
+						<%= lowestEnrollments %>
+					</h2>
+					<h3> Lowest Enrollments </h4>
+				</section>
+			</a>
+
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>

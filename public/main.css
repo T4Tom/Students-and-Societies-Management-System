@@ -1,0 +1,88 @@
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.content {
+  max-width: 1800px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.dash_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.dash_items .card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 200px;
+  cursor: pointer;
+}
+
+.dash_items a {
+  color: #000;
+  text-decoration: none;
+}
+
+.dash_items .card:hover {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.data th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.data th {
+  background-color: #333;
+  color: #fff;
+}
+
+.data tr:nth-child(even) {
+  background-color: #f4f7fa;
+}
+
+.data tr:hover {
+  background-color: #ddd;
+}
+
+.breadcrumbs {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1rem;
+}
+
+.breadcrumbs li {
+  display: inline;
+  list-style: lower-greek;
+  margin-right: 0.5rem;
+}
+
+.newButton {
+  margin: 0 auto;
+}
+
+.dataTable {
+  padding: 0 25%;
+}
+
+.edit_form {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1rem;
+}
